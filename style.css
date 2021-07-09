@@ -77,7 +77,6 @@ h1, h2, h3, h4, h5, p {
   .menu__point:hover {
     font-size: 14px;
     color: #DA0100;
-    ;
   }
 
 .contacts {
@@ -104,4 +103,29 @@ h1, h2, h3, h4, h5, p {
     text-decoration: underline;
     color: #FFFFFF;
     cursor: pointer;
+  }
+
+  .contacts__text {
+    font-size: 11px;
+    color: #9A9A9A;
+  }
+
+.footer {
+  height: 146px;
+  position: relative;
+}
+
+.network {
+  position: absolute;
+  top: 49px;
+  left: 702px;
+}
+  .network__item {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .network__pic {
+    width: 36px;
+    height: 36px;
   }
