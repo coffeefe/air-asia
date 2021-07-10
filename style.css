@@ -47,6 +47,7 @@ h1, h2, h3, h4, h5, p {
 .header {
   height: 104px;
   position: relative;
+  margin-bottom: 93px;
 }
 
 .logo {
@@ -58,14 +59,14 @@ h1, h2, h3, h4, h5, p {
 
 .menu {
   position: absolute;
-  top: 42px;
+  top: 39px;
   left: 164px;
 }
 
   .menu__item {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 54px;
+    margin-right: 50px;
   }
 
   .menu__item:last-child {
@@ -119,13 +120,14 @@ h1, h2, h3, h4, h5, p {
   width: 520px;
   left: 390px;
   color: #FFFFFF;
+  margin-bottom: 379px;
 }
 
   .cover__header {
     font-size: 72px;
     font-weight: 700;
     line-height: 98px;
-    margin-bottom: 27px;
+    margin-bottom: 28px;
   }
 
   .cover__text {
@@ -173,7 +175,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 .tours {
-  margin-top: 246px;
   margin-bottom: 130px;
 }
 
