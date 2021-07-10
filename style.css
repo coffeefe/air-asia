@@ -27,6 +27,7 @@ a {
 
 h1, h2, h3, h4, h5, p {
   margin: 0;
+  font-weight: normal;
 }
 
 .wrapper {
@@ -35,7 +36,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .container {
-  width: 1050px;
+  width: 1040px;
   margin: 0 auto;
   }
 
@@ -64,8 +65,6 @@ h1, h2, h3, h4, h5, p {
   }
 
   .menu__item:last-child {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 0px;
   }
 
@@ -96,6 +95,7 @@ h1, h2, h3, h4, h5, p {
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
+    margin-bottom: 120px;
   }
 
   .contacts__workhours:hover {
@@ -109,6 +109,122 @@ h1, h2, h3, h4, h5, p {
     font-size: 11px;
     color: #9A9A9A;
   }
+
+.cover {
+  height: 200px;
+  width: 520px;
+  left: 390px;
+  color: #FFFFFF;
+}
+
+  .cover__header {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    margin-bottom: 27px;
+  }
+
+  .cover__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 35px;
+  }
+  
+.button {
+  background: #F5170E;
+  width: 168px;
+  height: 55px;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #DA0100;
+}
+
+.tours {
+  margin-top: 246px;
+  margin-bottom: 130px;
+}
+
+  .tours__header {
+    color: #FFFFFF;
+    display: flex;
+    margin-bottom: 50px;
+  }
+  
+  .tours__item {
+    min-height: 450px;
+    width: 340px;
+    background: #FFFFFF;
+    border-radius: 5px 5px 5px 5px;
+    margin-right: 1px;
+    display: inline-block;
+  }
+
+  .tours__item:last-child {
+    margin-right: 0px;
+  }
+
+  .tours__pic {
+    min-height: 124px;
+    width: 340px;
+  }
+
+  .tours__content {
+    padding: 33px 0 26px 22px;
+    color: #666666;
+  }
+
+  .tours__subtitle {
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+
+  .tours__option {
+    display: inline-block;
+    vertical-align: top;
+    width: 126px;
+  }
+
+  .tours__option-icon {
+    height: 26px;
+    width: 26px;
+  }
+
+  .tours__option-text {
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .tours__description {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+.title{
+  font-weight: bold;
+  font-size: 36px;
+  margin-right: 12px;
+
+}
+
+  .tours__title-icon {
+    width: 21px;
+    height: 28px;
+    margin-top: 10px;
+  }
+
+
 
 .footer {
   height: 146px;
