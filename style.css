@@ -343,22 +343,100 @@ h1, h2, h3, h4, h5, p {
     background: #FFFFFF;
   }
 
+.about-us {
+  margin-bottom: 53px;
+}
+  .about-us__content:before {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url(./img/back_content.png) center center / cover no-repeat;
+}
+
+  .about-us__description {
+    background: url(./img/front_content.png) center center / cover no-repeat;
+    padding: 70px 80px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: -140px;
+    border-radius: 5px;
+    margin-top: 100px;
+  }
+
+  .title--about-us {
+    margin-bottom: 37px;
+  }
+
+  .about-us__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 43px;
+    width: 502px;
+  }
+
 .footer {
   height: 146px;
   position: relative;
 }
 
+.footer-container__content {
+  border-top: 4px solid #192f37;
+}
+
 .network {
   position: absolute;
   top: 49px;
-  left: 702px;
+  right: 265px;
 }
   .network__item {
     display: inline-block;
     vertical-align: middle;
+    margin-right: 10px;
   }
 
-  .network__pic {
+  .network__item:last-child {
+    margin-right: 0px;
+  }
+
+  .network__item--telegram .network__link {
+    background-image: url(./img/social/telegram.png);
+  }
+
+  .network__item--telegram .network__link:hover {
+    background-image: url(./img/social/t-hover.png);
+  }
+
+  .network__item--vk .network__link {
+    background-image: url(./img/social/vk.png);
+  }
+
+  .network__item--vk .network__link:hover {
+    background-image: url(./img/social/vk-hover.png);
+  }
+
+  .network__item--fb .network__link {
+    background-image: url(./img/social/f.png);
+  }
+
+  .network__item--fb .network__link:hover {
+    background-image: url(./img/social/f-hover.png);
+  }
+
+  .network__item--insta .network__link {
+    background-image: url(./img/social/instagram.png);
+  }
+
+  .network__item--insta .network__link:hover {
+    background-image: url(./img/social/instagram-hover.png);
+  }
+
+  .network__link {
+    display: block;
+    text-decoration: none;
     width: 36px;
     height: 36px;
+    background: center center no-repeat;
   }
