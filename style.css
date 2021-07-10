@@ -35,6 +35,10 @@ h1, h2, h3, h4, h5, p {
   height: 100%;
 }
 
+.main-page-wrapper {
+  background: url(#) center top no-repeat, url(#) center bottom 165px no-repeat;
+}
+
 .container {
   width: 1040px;
   margin: 0 auto;
