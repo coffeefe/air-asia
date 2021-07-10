@@ -149,6 +149,25 @@ h1, h2, h3, h4, h5, p {
   background: #DA0100;
 }
 
+.button--transparent {
+  background: #FFFFFF;
+  height: 55px;
+  width: 135px;
+  padding: 18px 30px;
+  border: 1px solid #F5170E;
+  color: #F5170E;
+}
+
+.button--transparent:hover {
+  background: #FFFFFF;
+}
+
+.button--content {
+  height: 54px;
+  width: 135px;
+  padding: 18px 30px;
+}
+
 .tours {
   margin-top: 246px;
   margin-bottom: 130px;
@@ -190,6 +209,10 @@ h1, h2, h3, h4, h5, p {
     margin-bottom: 20px;
   }
 
+  .tours__options {
+    margin-bottom: 24px;
+  }
+
   .tours__option {
     display: inline-block;
     vertical-align: top;
@@ -209,6 +232,7 @@ h1, h2, h3, h4, h5, p {
   .tours__description {
     font-weight: normal;
     font-size: 14px;
+    margin-bottom: 25px;
   }
 
 .title{
