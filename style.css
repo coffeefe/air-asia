@@ -238,7 +238,8 @@ h1, h2, h3, h4, h5, p {
     display: inline-block;
     vertical-align: top;
     width: 126px;
-    margin-right: 30px;
+    margin-right: 18px;
+    margin-left: 6px;
   }
 
   .tours__option:last-child {
@@ -248,7 +249,7 @@ h1, h2, h3, h4, h5, p {
 .tours__option-iconed {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
   .tours__option-icon {
@@ -268,7 +269,7 @@ h1, h2, h3, h4, h5, p {
   .tours__option-text {
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 21px;
     display: inline-block;
     vertical-align: middle;
   }
