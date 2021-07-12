@@ -193,7 +193,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .tours {
-  margin-bottom: 130px;
+  margin-bottom: 126px;
 }
 
   .tours__header {
@@ -232,17 +232,23 @@ h1, h2, h3, h4, h5, p {
   }
 
   .tours__options {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   .tours__option {
     display: inline-block;
     vertical-align: top;
     width: 126px;
+    margin-right: 30px;
+  }
+
+  .tours__option:last-child {
+    margin-right: 0px;
   }
 
 .tours__option-iconed {
   display: inline-block;
+  margin-right: 10px;
 }
 
   .tours__option-icon {
@@ -252,8 +258,6 @@ h1, h2, h3, h4, h5, p {
   }
 
   .tours__option-icon:last-child {
-    height: 26px;
-    width: 26px;
     margin-left: 0px;
   }
 
@@ -270,7 +274,8 @@ h1, h2, h3, h4, h5, p {
   .tours__description {
     font-weight: normal;
     font-size: 14px;
-    margin-bottom: 25px;
+    line-height: 21px;
+    margin-bottom: 24px;
   }
 
 .title {
@@ -327,22 +332,26 @@ h1, h2, h3, h4, h5, p {
   .news__date {
     font-weight: normal;
     font-size: 14px;
+    line-height: 21px;
   }
 
   .news__header {
     font-weight: bold;
     font-size: 24px;
-    margin-top: 13px;
-    margin-bottom: 6px;
+    line-height: 36px;
+    margin-top: 12px;
+    margin-bottom: 3px;
   }
 
   .news__text {
     font-weight: normal;
     font-size: 16px;
+    line-height: 24px;
   }
 
 .paginator {
   text-align: center;
+  margin-left: 26px;
 }
 
   .paginator__display, .paginator__list {
