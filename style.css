@@ -69,12 +69,6 @@ h1, h2, h3, h4, h5, p {
   left: 164px;
 }
 
-.menu--footer {
-  position: absolute;
-  top: 55px;
-  left: 164px;
-}
-
   .menu__item {
     display: inline-block;
     vertical-align: middle;
@@ -94,6 +88,12 @@ h1, h2, h3, h4, h5, p {
     font-size: 14px;
     color: #DA0100;
   }
+
+.menu--footer {
+  position: absolute;
+  top: 55px;
+  left: 164px;
+}
 
 .contacts {
   position: absolute;
