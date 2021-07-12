@@ -63,16 +63,15 @@ h1, h2, h3, h4, h5, p {
   left: 0;
 }
 
-.menu--footer {
-  position: absolute;
-  top: 55px;
-  left: 164px;
-}
-
-
 .menu {
   position: absolute;
   top: 39px;
+  left: 164px;
+}
+
+.menu--footer {
+  position: absolute;
+  top: 55px;
   left: 164px;
 }
 
