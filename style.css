@@ -248,6 +248,7 @@ h1, h2, h3, h4, h5, p {
 
 .tours__option-iconed {
   display: inline-block;
+  vertical-align: middle;
   margin-right: 10px;
 }
 
@@ -268,7 +269,9 @@ h1, h2, h3, h4, h5, p {
   .tours__option-text {
     font-weight: normal;
     font-size: 16px;
+    line-height: 22px;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .tours__description {
