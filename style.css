@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .main-page-wrapper {
-  background: url(./img/background_cover.png) center top no-repeat, url(./img/background_content.png) center bottom 1000px no-repeat;
+  background: url(./img/background_cover.png) center top no-repeat, url(./img/background_content.png) center bottom 150px no-repeat;
 }
 
 .container {
