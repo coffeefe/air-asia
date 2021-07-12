@@ -200,6 +200,11 @@ h1, h2, h3, h4, h5, p {
     display: flex;
   }
   
+  .tours__list {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
   .tours__item {
     min-height: 450px;
     width: 361px;
@@ -207,6 +212,7 @@ h1, h2, h3, h4, h5, p {
     border-radius: 5px 5px 5px 5px;
     margin-right: 24px;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .tours__item:last-child {
