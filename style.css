@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5, p {
 
 .wrapper {
   width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-page-wrapper {
@@ -44,29 +47,32 @@ h1, h2, h3, h4, h5, p {
   }
 
 .header {
-  height: 104px;
-  position: relative;
-  margin-bottom: 93px;
+  padding-top: 26px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__col {
+  display: flex;
+  align-items: center;
+}
+
+.header__col--right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .logo {
   display: block;
-  position: absolute;
-  top: 29px;
-  left: 0;
+  margin-right: 80px;
 }
 
 .logo--footer {
   display: block;
-  position: absolute;
-  top: 45px;
-  left: 0;
-}
 
-.menu {
-  position: absolute;
-  top: 39px;
-  left: 164px;
 }
 
   .menu__item {
@@ -96,9 +102,6 @@ h1, h2, h3, h4, h5, p {
 }
 
 .contacts {
-  position: absolute;
-  top: 27px;
-  right: 0;
   text-align: right;
 }
 
@@ -112,14 +115,12 @@ h1, h2, h3, h4, h5, p {
   .contacts__phone {
     color: #FFFFFF;
     font-size: 26px;
-    margin-bottom: 2px;
   }
 
   .contacts__workhours {
     font-size: 13px;
     text-decoration: underline;
     color: #98A4A8;
-    margin-bottom: 120px;
   }
 
   .contacts__workhours:hover {
@@ -135,7 +136,7 @@ h1, h2, h3, h4, h5, p {
   }
 
 .cover {
-  width: 520px;
+  max-width: 50%;
   color: #FFFFFF;
   margin-bottom: 246px;
 }
@@ -201,17 +202,15 @@ h1, h2, h3, h4, h5, p {
   }
   
   .tours__list {
-    display: inline-block;
-    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
   }
   
   .tours__item {
     min-height: 450px;
-    width: 361px;
+    width: calc(100% / 3 - 18px);
     background: #FFFFFF;
     border-radius: 5px 5px 5px 5px;
-    margin-right: 24px;
-    display: inline-block;
     vertical-align: middle;
   }
 
@@ -238,14 +237,13 @@ h1, h2, h3, h4, h5, p {
 
   .tours__options {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
   }
 
   .tours__option {
-    display: inline-block;
-    vertical-align: top;
     width: 126px;
-    margin-right: 18px;
-    margin-left: 6px;
+    margin-right: 28px;
   }
 
   .tours__option:last-child {
@@ -307,11 +305,10 @@ h1, h2, h3, h4, h5, p {
 
   .news__list {
     margin-bottom: 53px;
+    display: flex;
   }
   .news__item {
-    display: inline-block;
-    vertical-align: top;
-    width: 555px;
+    flex: 1;
     margin-right: 21px;
     border-radius: 5px;
     position: relative;
@@ -360,12 +357,10 @@ h1, h2, h3, h4, h5, p {
 .paginator {
   text-align: center;
   margin-left: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-  .paginator__display, .paginator__list {
-    display: inline-block;
-    vertical-align: middle;
-  }
 
   .paginator__display {
     font-weight: normal;
@@ -373,9 +368,12 @@ h1, h2, h3, h4, h5, p {
     margin-right: 23px;
   }
 
+  .paginator__list {
+    display: flex;
+    align-items: center;
+  }
+
   .paginator__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 1px;
   }
 
@@ -404,20 +402,25 @@ h1, h2, h3, h4, h5, p {
 .about-us {
   margin-bottom: 53px;
 }
+
+  .about-us__content {
+    display: flex;
+}
+
   .about-us__content:before {
   content: "";
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   width: 490px;
   height: 505px;
+  border-radius: 5px;
   background: url(./img/back_content.png) center center / cover no-repeat;
 }
 
   .about-us__description {
     background: url(./img/front_content.png) center center / cover no-repeat;
     padding: 70px 80px;
-    display: inline-block;
-    vertical-align: top;
+    display: flex;
+    flex-direction: column;
     margin-left: -140px;
     border-radius: 5px;
     margin-top: 97px;
@@ -437,9 +440,27 @@ h1, h2, h3, h4, h5, p {
     width: 501px;
   }
 
+
+.footer-container {
+  margin-top: auto;
+}
+
 .footer {
   height: 146px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--right {
+  display: flex;
+  align-items: flex-end;
 }
 
 .footer-container__content {
@@ -447,9 +468,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 .network {
-  position: absolute;
-  top: 49px;
-  right: 264px;
+  margin-right: 260px;
 }
   .network__item {
     display: inline-block;

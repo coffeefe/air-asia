@@ -11,20 +11,24 @@
   <div class="wrapper main-page-wrapper">
     <div class="container">
       <header class="header">
-        <a href="/" class="logo">
-          <img src="./img/logo.png" alt="Логотип" class="logo__pic">
-        </a>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item"><a href="#" class="menu__point">Главная</a></li>
-            <li class="menu__item"><a href="#" class="menu__point">Услуги</a></li>
-            <li class="menu__item"><a href="#" class="menu__point">Отзывы</a></li>
-          </ul>
-        </nav>
-        <adress class="contacts">
-          <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          <div class="contacts__workhours">График работы</div>
-        </adress>
+        <div class="header__col">
+          <a href="/" class="logo">
+            <img src="./img/logo.png" alt="Логотип" class="logo__pic">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="./index.html" class="menu__point">Главная</a></li>
+              <li class="menu__item"><a href="./services.html" class="menu__point">Услуги</a></li>
+              <li class="menu__item"><a href="#" class="menu__point">Отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__col header__col--right">
+          <adress class="contacts">
+            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            <div class="contacts__workhours">График работы</div>
+          </adress>
+        </div>
       </header>
     </div> 
 
@@ -160,34 +164,38 @@
     <footer class="footer-container">
       <div class="container footer-container__content">
         <div class="footer">
-          <a href="/" class="logo logo--footer">
-            <img src="./img/logo.png" alt="Логотип" class="logo__pic">
-          </a>
-          <nav class="menu menu--footer">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__point">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__point">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__point">Отзывы</a></li>
+          <div class="footer__col">
+            <a href="/" class="logo logo--footer">
+              <img src="./img/logo.png" alt="Логотип" class="logo__pic">
+            </a>
+            <nav class="menu menu--footer">
+              <ul class="menu__list">
+                <li class="menu__item"><a href="./index.html" class="menu__point">Главная</a></li>
+                <li class="menu__item"><a href="./services.html" class="menu__point">Услуги</a></li>
+                <li class="menu__item"><a href="#" class="menu__point">Отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col footer__col--right">
+            <ul class="network">
+              <li class="network__item network__item--telegram">
+                <a href="#" class="network__link"></a>
+              </li>
+              <li class="network__item network__item--vk">
+                <a href="#" class="network__link"></a>
+              </li>
+              <li class="network__item network__item--fb">
+                <a href="#" class="network__link"></a>
+              </li>
+              <li class="network__item network__item--insta">
+                <a href="#" class="network__link"></a>
+              </li>
             </ul>
-          </nav>
-          <ul class="network">
-            <li class="network__item network__item--telegram">
-              <a href="#" class="network__link"></a>
-            </li>
-            <li class="network__item network__item--vk">
-              <a href="#" class="network__link"></a>
-            </li>
-            <li class="network__item network__item--fb">
-              <a href="#" class="network__link"></a>
-            </li>
-            <li class="network__item network__item--insta">
-              <a href="#" class="network__link"></a>
-            </li>
-          </ul>
-          <adress class="contacts contacts--footer">
-            <div class="contacts__text">Бесплатный звонок по России</div>
-            <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-          </adress>
+            <adress class="contacts contacts--footer">
+              <div class="contacts__text">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
+            </adress>
+          </div>
         </div>
       </div>
     </footer>
