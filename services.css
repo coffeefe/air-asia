@@ -74,13 +74,17 @@ h1, h2, h3, h4, h5, p {
 
 .logo {
   display: block;
-  margin-right: 80px;
+  margin-right: 67px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
   .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 55px;
   }
 
   .menu__item:last-child {
@@ -140,7 +144,6 @@ h1, h2, h3, h4, h5, p {
 .cover {
   max-width: 50%;
   color: #FFFFFF;
-  margin-bottom: 121px;
 }
 
   .cover__header {
@@ -187,6 +190,10 @@ h1, h2, h3, h4, h5, p {
     color: #9A9A9A;
     cursor: pointer;
   }
+
+.services-main-content--padding {
+  padding-top: 121px;
+}
 
   .services-list {
     margin-bottom: 59px;
@@ -292,7 +299,7 @@ h1, h2, h3, h4, h5, p {
     margin-right: 0px;
   }
 
-  .paginator__page--black {
+  .paginator--other-page{
     color: #000;
     display: block;
     height: 32px;
@@ -305,7 +312,7 @@ h1, h2, h3, h4, h5, p {
     line-height: 32px;
   }
 
-  .paginator__page--black:hover {
+  .paginator--other-page:hover {
     color: #FFFFFF;
     background: #F5170E;
   }
@@ -373,11 +380,12 @@ h1, h2, h3, h4, h5, p {
     position: absolute;
     top: 49px;
     right: 264px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
   }
     .network__item {
-      display: inline-block;
-      vertical-align: middle;
-      margin-right: 7px;
+      margin-right: 10px;
     }
   
     .network__item:last-child {

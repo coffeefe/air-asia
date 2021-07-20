@@ -75,10 +75,14 @@ h1, h2, h3, h4, h5, p {
 
 }
 
+.menu__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
   .menu__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 55px;
   }
 
   .menu__item:last-child {
@@ -469,11 +473,12 @@ h1, h2, h3, h4, h5, p {
 
 .network {
   margin-right: 260px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
   .network__item {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 7px;
+    margin-right: 10px;
   }
 
   .network__item:last-child {
