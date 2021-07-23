@@ -44,6 +44,36 @@ h1, h2, h3, h4, h5, p {
   align-items: center;
   flex-direction: column;
   margin-top: 96px;
+  opacity: 0;
+  animation: hello-animation .8s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes hello-animation {
+  0% { 
+    opacity: 0;
+    transform: scale(0);
+  }
+  30% {
+    opacity: 100;
+    transform: scale(1.5);
+  }
+
+  50% {
+    opacity: 100;
+    transform: scale(1);
+  }
+
+  75% {
+    opacity: 100;
+    transform: scale(1.5);
+  }
+
+  100% {
+    opacity: 100;
+    transform: scale(1);
+  }
 }
 
 .content {
