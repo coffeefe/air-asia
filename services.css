@@ -109,6 +109,47 @@ h1, h2, h3, h4, h5, p {
 
 .contacts {
   text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__dropdown {
+  position: relative;
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.contacts__dropdown:hover .contacts__workhours-list {
+  display: block;
+}
+
+.contacts__workhours-list {
+  position: absolute;
+  background: #EDEDED;
+  opacity: 0.8;
+  mix-blend-mode: normal;
+  max-width: 160px;
+  padding: 15px 19px;
+  text-align: left;
+  top: 100%;
+  display: none;
+  border-radius: 9px;
+  margin-top: 10px;
+}
+
+.workours-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1E1F20;
+}
+.workours-text-bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 21px;
+  color: #1E1F20;
 }
 
 .contacts--footer {
@@ -260,9 +301,10 @@ h1, h2, h3, h4, h5, p {
   color: #F5170E;
 }
 
-.button--transparent:hover {
+.button--transparent-large:hover {
   color: #FFFFFF;
   background: #DA0100;
+  border: 1px solid #DA0100;
 }
 
 .button--content {
