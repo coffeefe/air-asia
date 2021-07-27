@@ -121,6 +121,10 @@ h1, h2, h3, h4, h5, p {
   display: block;
 }
 
+.contacts__dropdown:hover .contacts__triangle {
+  display: block;
+}
+
 .contacts__workhours-list {
   position: absolute;
   background: #EDEDED;
@@ -132,7 +136,20 @@ h1, h2, h3, h4, h5, p {
   top: 100%;
   display: none;
   border-radius: 9px;
-  margin-top: 10px;
+  margin-top: 9px;
+}
+
+.contacts__triangle {
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-top-width: 0px;
+  width: 0px;
+  height: 0px;
+  border-bottom-color: #EDEDED;
+  opacity: 0.8;
+  display: none;
+  margin: 17px 41px 0px 0px;
 }
 
 .workours-text {
