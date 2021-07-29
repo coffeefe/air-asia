@@ -56,22 +56,22 @@ h1, h2, h3, h4, h5, p {
     transform: scale(0);
   }
   30% {
-    opacity: 100;
+    opacity: 1;
     transform: scale(1.5);
   }
 
   50% {
-    opacity: 100;
+    opacity: 1;
     transform: scale(1);
   }
 
   75% {
-    opacity: 100;
+    opacity: 1;
     transform: scale(1.5);
   }
 
   100% {
-    opacity: 100;
+    opacity: 1;
     transform: scale(1);
   }
 }

@@ -111,6 +111,10 @@ button {
     color: #DA0100;
   }
 
+    .menu__point--active {
+    color: #DA0100;
+  }
+
 .menu--footer {
   position: absolute;
   top: 55px;
@@ -133,7 +137,7 @@ button {
   display: block;
 }
 
-.contacts__dropdown:hover .contacts__triangle {
+.contacts__dropdown:hover .contacts__workhours::after {
   display: block;
 }
 
@@ -148,10 +152,10 @@ button {
   top: 100%;
   display: none;
   border-radius: 9px;
-  margin-top: 9px;
+  margin-top: 10px;
 }
 
-.contacts__triangle {
+.contacts__workhours::after {
   content: "";
   position: absolute;
   border: 10px solid transparent;
@@ -161,7 +165,7 @@ button {
   border-bottom-color: #EDEDED;
   opacity: 0.8;
   display: none;
-  margin: 17px 41px 0px 0px;
+  margin: 0px 0px 0px 36px;
 }
 
 .workours-text {
@@ -266,17 +270,9 @@ button {
   margin-bottom: 86px;
 }
 
-.column {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 68px;
-}
-
 .feedback__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  margin-bottom: 68px;
+  columns: 2;
 }
 
 .feedback__item {
@@ -285,6 +281,7 @@ button {
   padding: 50px 31px 32px 28px;
   margin-bottom: 17px;
   max-width: 557px;
+  display: inline-block;
 }
 
 .feedback__item:last-child {
