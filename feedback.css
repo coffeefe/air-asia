@@ -68,7 +68,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 81px;
+  margin-bottom: 34px;
 }
 
 .header__col {
@@ -137,7 +137,7 @@ button {
   display: block;
 }
 
-.contacts__dropdown:hover .contacts__workhours::after {
+.contacts__dropdown:hover .contacts__workhours-list::before {
   display: block;
 }
 
@@ -155,7 +155,7 @@ button {
   margin-top: 10px;
 }
 
-.contacts__workhours::after {
+.contacts__workhours-list::before {
   content: "";
   position: absolute;
   border: 10px solid transparent;
@@ -163,9 +163,9 @@ button {
   width: 0px;
   height: 0px;
   border-bottom-color: #EDEDED;
-  opacity: 0.8;
   display: none;
-  margin: 0px 0px 0px 36px;
+  bottom: 100%;
+  right: 39px;
 }
 
 .workours-text {
@@ -222,7 +222,7 @@ button {
     font-size: 72px;
     font-weight: 700;
     line-height: 98px;
-    margin-bottom: 104px;
+    margin-bottom: 114px;
   }
 
   .breadcrumbs {
@@ -355,9 +355,18 @@ button {
   font-size: 16px;
   line-height: 27px;
   color: #818181;
-  margin-bottom: 48px;
+  margin-bottom: 45px;
   max-width: 495px;
 }
+
+.feedback__content-date{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
+  color: #1A1B1E;
+}
+
   .paginator {
     text-align: center;
     margin-left: 26px;
@@ -612,35 +621,67 @@ button {
       }
     
       .network__item--telegram .network__link {
-        background-image: url(./img/social/telegram.png);
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -66px -122px;
+        position: relative;
       }
-    
-      .network__item--telegram .network__link:hover {
-        background-image: url(./img/social/t-hover.png);
+
+      .network__item--telegram:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0%;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -66px -66px;
+        transform: translate(-50% -50%);
       }
     
       .network__item--vk .network__link {
-        background-image: url(./img/social/vk.png);
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -10px -122px;
+        position: relative;
       }
     
-      .network__item--vk .network__link:hover {
-        background-image: url(./img/social/vk-hover.png);
+      .network__item--vk:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0%;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -10px -66px;
+        transform: translate(-50% -50%);
       }
     
       .network__item--fb .network__link {
-        background-image: url(./img/social/f.png);
+        position: relative;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -122px -66px;
       }
     
-      .network__item--fb .network__link:hover {
-        background-image: url(./img/social/f-hover.png);
+      .network__item--fb:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0%;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -66px -10px;
+        transform: translate(-50% -50%);
       }
     
       .network__item--insta .network__link {
-        background-image: url(./img/social/instagram.png);
+        position: relative;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -122px -10px;
       }
     
-      .network__item--insta .network__link:hover {
-        background-image: url(./img/social/instagram-hover.png);
+      .network__item--insta:hover:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0%;
+        width: 36px; height: 36px;
+        background: url(./img/social/sprites.png) -10px -10px;
+        transform: translate(-50% -50%);
       }
     
       .network__link {
