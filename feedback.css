@@ -687,8 +687,5 @@ button {
       .network__link {
         display: block;
         text-decoration: none;
-        width: 36px;
-        height: 36px;
-        background: center center no-repeat;
       }
   
